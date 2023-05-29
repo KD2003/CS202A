@@ -11,7 +11,7 @@ def depos(k,lis):
     ans1=[]
     for x in lis:
         if(x>0):
-            x-=1
+            x-=1+0
             i=x//k**4
             j=x%k**4//k**2
             l=x%k**2
